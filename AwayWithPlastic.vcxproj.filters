@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\freetype-gl">
+      <UniqueIdentifier>{26CBE437-12AF-A58D-7B0F-A0E06712900F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm">
+      <UniqueIdentifier>{829FC5A8-6E57-07F6-D75E-E051C335A2E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\detail">
+      <UniqueIdentifier>{04D16468-70E7-62FE-B95E-EE1F25B43386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\glm\simd">
+      <UniqueIdentifier>{1EFDF202-8A88-60C7-9399-E3BBFFA3BCC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\stb_image">
+      <UniqueIdentifier>{0DA0BA59-F998-D9AB-22CB-BE300E23B9B7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AwayWithPlastic\src\Game.h" />
+    <ClInclude Include="AwayWithPlastic\src\GameObject.h" />
+    <ClInclude Include="AwayWithPlastic\src\Highscore.h" />
+    <ClInclude Include="AwayWithPlastic\src\IndexBuffer.h" />
+    <ClInclude Include="AwayWithPlastic\src\Renderer.h" />
+    <ClInclude Include="AwayWithPlastic\src\Replay.h" />
+    <ClInclude Include="AwayWithPlastic\src\Save.h" />
+    <ClInclude Include="AwayWithPlastic\src\Shader.h" />
+    <ClInclude Include="AwayWithPlastic\src\Texture.h" />
+    <ClInclude Include="AwayWithPlastic\src\TextureManager.h" />
+    <ClInclude Include="AwayWithPlastic\src\VertexArray.h" />
+    <ClInclude Include="AwayWithPlastic\src\VertexBuffer.h" />
+    <ClInclude Include="AwayWithPlastic\src\VertexBufferLayout.h" />
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\distance-field.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\edtaa3func.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\freetype-gl.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\opengl.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\platform.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\texture-atlas.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\texture-font.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\utf8-utils.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\vec234.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\freetype-gl\vector.h">
+      <Filter>vendor\freetype-gl</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\common.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\exponential.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\geometric.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\integer.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\matrix.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\packing.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\platform.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\trigonometric.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\glm\simd\vector_relational.h">
+      <Filter>vendor\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="AwayWithPlastic\src\vendor\stb_image\stb_image.h">
+      <Filter>vendor\stb_image</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AwayWithPlastic\src\Application.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\Game.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\GameObject.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\Highscore.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\IndexBuffer.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\Renderer.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\Replay.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\Save.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\Shader.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\Texture.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\TextureManager.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\VertexArray.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\VertexBuffer.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\VertexBufferLayout.cpp" />
+    <ClCompile Include="AwayWithPlastic\src\vendor\glm\detail\glm.cpp">
+      <Filter>vendor\glm\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="AwayWithPlastic\src\vendor\stb_image\stb_image.cpp">
+      <Filter>vendor\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="AwayWithPlastic\src\vendor\freetype-gl\distance-field.c" />
+    <ClCompile Include="AwayWithPlastic\src\vendor\freetype-gl\edtaa3func.c" />
+    <ClCompile Include="AwayWithPlastic\src\vendor\freetype-gl\platform.c" />
+    <ClCompile Include="AwayWithPlastic\src\vendor\freetype-gl\vector.c" />
+    <ClCompile Include="AwayWithPlastic\src\vendor\freetype-gl\utf8-utils.c" />
+    <ClCompile Include="AwayWithPlastic\src\vendor\freetype-gl\texture-font.c" />
+    <ClCompile Include="AwayWithPlastic\src\vendor\freetype-gl\texture-atlas.c" />
+  </ItemGroup>
+</Project>
